@@ -1,0 +1,11 @@
+File has been received successfully
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\tkinter\__init
+__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "D:\Programming\FileTransfer\venv\File_Transfer2.py", line 30, in receiver
+    s.connect((ID, port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it        
+
